@@ -1,0 +1,43 @@
+@media screen and (min-width: 58.75em) {
+	.site-main {
+		position: relative;
+		max-width: 60%;
+		margin: 1em 0 1.5em 2em;
+		float: left;
+	}
+	aside#secondary {
+		padding: 1.5em 1em 0 1em;
+		background: linear-gradient(to right, #DEEAEC, #EFF5F5, #DEEAEC);
+		box-shadow: -2px 2px 2px rgba(69,111,116,0.2);
+	}
+	#secondary.widget-area {
+		max-width: 28%;
+		float: right;
+		margin: 0 auto;
+	}
+	.widget-title {
+		font-size: 1.25em;
+	}
+	.widget-area ul li {
+		margin-left: -2.75em;
+		margin-bottom: .5em;
+		padding: .5em;
+		color: #456F74;
+		background-color: #EFF5F5;
+		border: 1px solid #EFF5F5;
+		box-shadow: -2px 2px 3px rgba(191,214,217,0.5);
+		list-style: none;
+	}
+	.widget-area ul li:hover {
+		background-color: #EFF5F5;		
+		border: 1px solid #9EC1C6;
+		color: #456F74;
+	}
+	.widget-area ul li:hover a {
+		color: #456F74;
+		text-decoration: underline;
+	}
+	.widget-area a {
+		color: #456F74;
+	}
+}
